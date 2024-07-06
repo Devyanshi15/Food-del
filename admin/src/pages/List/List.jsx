@@ -7,6 +7,7 @@ import { useState } from 'react';
 const List = ({url}) => {
 
     // const url = "http://localhost:4000"
+    const url = "https://food-del-backend1.onrender.com"
     const [list,setList] = useState([]);
 
     const fetchList = async ()=> {
